@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  font-family: inter;
+}
+
+.main-component-div {
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.submit-btn-div {
+  border: 1px solid #d1dce5;
+  border-radius: 5px;
+}
+
+.submit-btn-div:hover {
+  border: 1px solid #d1dce5;
+  border-radius: 5px;
+  transform: translateY(-1px);
+  background-color: #eff7ff;
+}
+
+.submit-btn-div button {
+  width: 100%;
+  border: none;
+  background: none;
+  cursor: pointer;
+  /* margin-left: 8px; Adds spacing between text and button */
+  padding: 0;
+}
+/* .submit-btn-div button:hover {
+  
+  border: none;
+} */
+
+.input-div label {
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 4px;
+}
+
+.input-div label img {
+  width: 12px;
+  color: #eff7ff;
+  color: #869cb5;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-div label span {
+  font-size: 13px;
+  color: #5e748c;
+}
+
+.input-space {
+  width: 100%;
+  display: flex;
+  border: 1px solid #d1dce5;
+  border-radius: 5px;
+  background-color: ;
+  padding: 3px 6px;
+  justify-content: space-between;
+}
+.input-space:focus-within {
+  width: 100%;
+  display: flex;
+  border: 1px solid #e40808;
+  border-radius: 5px;
+  background-color: none;
+  padding: 3px 6px;
+  justify-content: space-between;
+}
+
+.input-space input {
+  height: 30px;
+  /* padding: 10px 15px; */
+  border: none;
+  outline: none;
+  width: 90%;
+}
+
+.input-space input:focus {
+  height: 30px;
+  border: none;
+  outline: none;
+  width: 90%;
+  background-color: none;
+}
+
+.input-space .submit-btn-div button {
+  height: 100%;
+  padding: 2px 4px;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tag-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 5px 10px;
+  border: 1px solid #d1dce5;
+  border-radius: 8px;
+  background-color: #f0f4f8;
+  font-family: inter;
+}
+
+.tag-div p {
+  letter-spacing: -1;
+  font-size: 14px;
+  color: #6e747a;
+  font-weight: 500;
+}
+
+.delete-btn button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  /* margin-left: 8px; Adds spacing between text and button */
+  padding: 0;
+}
+
+.delete-btn img {
+  width: 9px; /* Small icon size */
+  height: 9px;
+  /* filter: grayscale(1) brightness(0.5); Adds a muted appearance */
+  transition: filter 0.2s ease;
+}
+
+.access-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 15px 0px;
+  font-family: inter;
+  padding: 5px 0px;
+}
+
+.access-form p {
+  font-size: 15px;
+  font-family: inter;
+  /* letter-spacing: -1px; */
+  font-weight: 600;
+  color: #2e3e50;
+  margin-bottom: 7px;
+}
+
+.checkbox-div {
+  display: flex;
+  gap: 10px;
+}
+
+.overall-input-div {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.overall-input-div label {
+  font-size: 15px;
+  color: #6e747a;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
+.checkbox-div input[type='checkbox']:checked {
+  background-color: red;
+  accent-color: red;
+}
+
+.new-div {
+  background-color: #f4d6d6;
+  padding: 2px 6px;
+  border-radius: 5px;
+  color: red;
+  font-size: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-div hr {
+  border-style: dashed;
+  border-color: #dedede;
+}
+
+.left-side h3 {
+  font-size: 15px;
+  /* letter-spacing: -1px; */
+  font-weight: 600;
+  color: #2e3e50;
+  margin-bottom: 7px;
+}
+
+.left-side p {
+  font-size: 13px;
+  /* letter-spacing: -1px; */
+  font-weight: 500;
+  color: #5e748c;
+}
+
+.lower-portfolio-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 17px 0px;
+}
+
+.choose {
+  padding: 5px 10px;
+  border: 1px solid #d1dce5;
+  border-radius: 8px;
+  background-color: transparent;
+  font-family: inter;
+  cursor: pointer;
+  font-weight: 500;
+  color: #6e747a;
+}
+.choose:hover {
+  transform: translateY(-1px);
+  background-color: #eff7ff;
+}
