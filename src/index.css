@@ -256,3 +256,23 @@ body {
   transform: translateY(-1px);
   background-color: #eff7ff;
 }
+
+.max-tags-error {
+  margin: 10px 0px;
+}
+
+.max-tags-error p {
+  font-size: 12px;
+  font-style: italic;
+  color: red;
+}
+
+.empty-tags {
+  margin: 10px 0px;
+}
+
+.empty-tags p {
+  font-size: 12px;
+  font-style: italic;
+  color: red;
+}
